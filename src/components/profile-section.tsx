@@ -42,6 +42,9 @@ export function ProfileSection({ aboutMe }: ProfileSectionProps) {
             {aboutMe.altName}
           </p>
         )}
+        <p className="text-zinc-600 text-xs leading-relaxed tracking-wide mb-6">
+          "{aboutMe.idiom}"
+        </p>
         <p className="text-zinc-600 text-xs leading-relaxed tracking-wide uppercase mb-6">
           {aboutMe.title}
           <br />
